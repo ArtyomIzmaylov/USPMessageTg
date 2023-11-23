@@ -1,0 +1,5 @@
+/node_modules
+/src/creds.js
+/src/crypto.js
+/build
+.env
