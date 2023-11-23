@@ -1,5 +1,5 @@
 import TelegramBot from "node-telegram-bot-api";
-import {botConfig, creds, sessionFilePath} from "../../creds.js";
+import {botConfig, creds, sessionFilePath} from "../../creds";
 import {StringSession} from "telegram/sessions/index.js";
 import {TelegramClient} from "telegram/index.js";
 import {JsonFileService} from "../json/JsonFileService.js";

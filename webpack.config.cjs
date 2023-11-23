@@ -7,15 +7,24 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/
+            },
+        ],
+    },
     resolve: {
         fallback: {
+            tls : false,
             crypto : false,
             fs : false,
             util : false,
+            send : require.resolve('send/'),
             telegram : false,
             assert : false,
             http : false,
-            tls : false,
             path : false,
             net : false,
             os : false,

@@ -2,7 +2,7 @@
 import {MessageController} from "./controlers/MessageController.js";
 import {MessageService} from "./services/MessageService.js";
 import {TelegramMessageService} from "./services/telegram/TelegramMessageService.js";
-import {botConfig, creds, sessionFilePath} from "./creds.js";
+import {botConfig, creds, sessionFilePath} from "./creds";
 import express, {Router} from "express";
 import {JsonFileService} from "./services/json/JsonFileService.js";
 

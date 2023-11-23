@@ -1,7 +1,7 @@
 import {Api, TelegramClient} from "telegram/index.js";
 import {CredsInterface, PayloadInterface} from "../../interfaces/HttpInterfaces.js";
 import {StringSession} from "telegram/sessions/index.js";
-import {botConfig} from "../../creds.js";
+
 
 
 

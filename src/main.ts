@@ -1,6 +1,5 @@
 import express from "express"
 import router from "./router.js";
-//import {mainBot} from "./services/telegram/TelegramAuthBotService.js";
 import {mainBot} from "./services/telegram/mainBot.js";
 
 

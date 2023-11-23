@@ -1,7 +1,7 @@
 import {MessageService} from "../services/MessageService.js";
 import {Request, Response} from "express";
 import {PayloadInterface} from "../interfaces/HttpInterfaces.js";
-import {calculateHMAC, secretKet} from "../crypto.js";
+import {calculateHMAC, secretKet} from "../crypto";
 
 
 
